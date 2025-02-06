@@ -1,7 +1,9 @@
 # Requirements
 - `Python 3.12`
+- `Ollama` & `Llama3.2:1b`
 
 # Ollama
+- `ollama run llama3.2:1b`
 - `ollama help`
 
 # Install Python on Windows 11
@@ -13,4 +15,3 @@
 - Example: `pip install numpy`
 - Install LangChain Chroma without update numpy: `pip install langchain-chroma --no-deps`
 - Version `Python 3.13` error with `pip install streamlit==3.14.0` & `pip install langchain-chroma` => use `Python 3.12`
-- `ollama run llama3.2:1b`
