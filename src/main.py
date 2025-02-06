@@ -26,9 +26,10 @@ if st.button("Run"):
 
     # Save the file to the working directory
     file_path = os.path.join(working_dir, file_name)
+
     with open(file_path, "wb") as f:
         f.write(bytes_data)
-
+    
     # RAG
     answer = get_answer(file_name, user_query)
 
