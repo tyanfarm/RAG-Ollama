@@ -12,6 +12,16 @@
 - `ollama run llama3.2:1b`
 - `ollama help`
 
+# LangChain Retrieval
+![alt](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*kPSgqK4oCq9beeijmVRK7g.jpeg)
+
+# 5 Levels Of Text Splitting
+- Level 1: `Character Splitting` - Simple static character chunks of data
+- Level 2: `Recursive Character Text Splitting` - Recursize chunking based on a list of separators
+- Level 3: `Document Specific Splitting` - Various chunking methods for different document types (PDF, Python, Markdown)
+- Level 4: `Semantic Splitting` - Embedding walk based chunking
+- Level 5: `Agentic Splitting` - Experimental method of splitting text with an agent-like system. 
+
 # Install Python on Windows 11
 - Download python from `https://www.python.org/downloads/`
 - Add folder contains `python.exe` (Ex: `D:\Tyan\Apps\Python313`) to `system environment variables`
@@ -21,3 +31,6 @@
 - Example: `pip install numpy`
 - Install LangChain Chroma without update numpy: `pip install langchain-chroma --no-deps`
 - Version `Python 3.13` error with `pip install streamlit==3.14.0` & `pip install langchain-chroma` => use `Python 3.12`
+
+# References
+- LangChain Retrieval: https://medium.com/@sushmithabhanu24/retrieval-in-langchain-part-2-text-splitters-2d8c9d595cc9
