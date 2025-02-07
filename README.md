@@ -22,6 +22,12 @@
 - Level 4: `Semantic Splitting` - Embedding walk based chunking
 - Level 5: `Agentic Splitting` - Experimental method of splitting text with an agent-like system. 
 
+# 🚀 Need to update
+- `No semantic chunking` → Your text splitting is purely based on characters, without considering meaning or logical sentence structures.
+- `No embedding refinement` → You don’t fine-tune or optimize embeddings to enhance retrieval quality.
+- `No reranking` → After retrieving chunks, you don’t re-rank them to prioritize the most relevant information.
+- `No context grouping or aggregation` → If related chunks are split apart, the model might miss crucial context.
+
 # Install Python on Windows 11
 - Download python from `https://www.python.org/downloads/`
 - Add folder contains `python.exe` (Ex: `D:\Tyan\Apps\Python313`) to `system environment variables`
