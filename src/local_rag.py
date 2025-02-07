@@ -15,7 +15,7 @@ llm = Ollama(
     temperature=0
 )
 
-embeddings = HuggingFaceEmbeddings()
+embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
 
 def get_answer(file_name, query):
     file_path = f"{working_dir}/{file_name}"
